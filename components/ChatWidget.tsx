@@ -89,7 +89,7 @@ export default function ChatWidget() {
             initial={{ opacity: 0, y: 20, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.95 }}
-            className="w-[350px] max-w-[calc(100vw-3rem)] h-[500px] max-h-[calc(100vh-6rem)] glass rounded-2xl flex flex-col overflow-hidden border border-white/10 shadow-2xl origin-bottom-right"
+            className="w-[350px] max-w-[calc(100vw-3rem)] h-[500px] max-h-[calc(100vh-6rem)] bg-black/70 backdrop-blur-2xl rounded-2xl flex flex-col overflow-hidden border border-white/20 shadow-2xl origin-bottom-right"
           >
             {/* Header */}
             <div className="bg-black/50 p-4 flex justify-between items-center border-b border-white/10 cursor-grab active:cursor-grabbing">
